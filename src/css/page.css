@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+    .page {
+        /*height: 100vh;*/
+        /*overflow: hidden;*/
+        display: grid;
+        grid: auto / 100px auto;
+    }
+}
+
+/*page*/
+.page > .aside {
+    /*border: 1px solid red;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right:1px solid #ddd;
+}
+
+.page > .main {
+    /*border: 1px solid green;*/
+
+}
+.page .actions>li{
+    margin: 20px;
+}
+
+.page>.aside .button{
+    padding: 10px;
+}
+
+
+
+

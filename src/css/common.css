@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+button{
+    font-size: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul, ol {
+    list-style: none
+}
